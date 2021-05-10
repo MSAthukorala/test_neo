@@ -1,0 +1,12 @@
+cron:
+- description: "Expire Listings"
+  url: /cron/expireListing
+  schedule: every 1 hours
+
+- description: "Expire Boosts"
+  url: /cron/expireBoost
+  schedule: every 1 hours
+
+- description: "Top Up Listing"
+  url: /cron/resetTopUpListingDate
+  schedule: every day 23:59

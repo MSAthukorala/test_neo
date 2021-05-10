@@ -1,0 +1,24 @@
+runtime: nodejs10
+env: standard
+instance_class: B1
+
+basic_scaling:
+  max_instances: 1
+  idle_timeout: 10m
+
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
+
+env_variables:
+  DATABASE: "mongodb+srv://DEV:RToO4TYqrxd8689y@cluster0-agpk3.gcp.mongodb.net/idak?retryWrites=true&w=majority"
+  ACCESS_TOKEN_SECRET: "09f26e402586e2faa8da4c98a35f1b20d6b033c6097befa8be3486a829587fe2f90a832bd3ff9d42710a4da095a2ce285b009f0c3730cd9b8e1af3eb84df6611"
+  GCS_BUCKET: "idak_bucket"
+  GCLOUD_PROJECT: "idak-6e36f"
+  GCLOUD_CLIENT_EMAIL: "gcs-bucket-storage@idak-6e36f.iam.gserviceaccount.com"
+  GCLOUD_PRIVATE_KEY: "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCUfBULP05dERT+\niTIilrMxtIWEHC1IWS5EXPWPSmEXDhcZr4eT6H9RcdWB5+VbNuf95QWqWtppihbL\nP32z8aRr79RWSj1hKGWGYK2TGZwqAfH883nwYdARmvjRlsOLOUoj408htkzZoER3\niq0NjqGrEGfELD0d379SVZPWk73cfORD1PbkraE0TWIwze4ZRjAkKoj/pkcgourk\nN8HFJ8iTt/tYQpLhbYxtqUB84e6t3QIHhYqfE0iL9Ar99yIqoANLCZZL07+SGXdX\nPcwo1JbKU2MQJ7SRsOYH/105uRYqgITdH3H25CLFWsIUHyEqthVHKspDzzWju04p\nRW91ZmjtAgMBAAECggEAMkDmjGZyGqxv2w/K8Irpfe6Xa5Vvu/c24ftGPqdRQdDK\nf655J9V91a49sRgvd1YXYUY0SyoxlpueSE6mOBMV71P9nPDGYk4eQkMRK+J0iIEd\nCdvLjtBD79lv0duBNer/TTMe8o106AjGc2DzXc3CqJdGT04bpzM1WOPOw8Y/8VGt\nhfUrr1KjaAzYQ+M4Bq+Dqa+mwrG4myeC191cCCb0cQKdzt3M1lx8YtQbfmgDiznN\nPTnbseZRANCzPpnEaSV7s0FV27QXuFzoR/Ha5YmLO8sGmWf1Fn8AptnM1+4aytNo\n5zSOU7HqdyiK6AFRziP48UOq1ykQ5iwL3OKswfP8XwKBgQDLfqqqFVNucK5GyijV\n04hOcLgnbzWIIVzQG7Ox3kA8SA/Ml9XFUF2RZlVH1w5Um02bkBEh5ZXdJRmxnlFL\n3eItkiNyd5G96LP4uGlb59BHA/i+wJ1kglvXgYhX4gOK2Iney4m1ieiwEfR5oJ9T\n7nMnuHS3R+wo/A8DABvVEDvJvwKBgQC6y9zpWAxS8ieVaTmCmGuFpG1uK2Sv9bXR\nBCBR+N0Mv7sZ/QdxE1u+NkGrEf0+qOLsBU52AwcMnrw/bKqqy2DCQqAUqbXFM4Cq\n9Z8il2DJPzuVnnM01WjKkdEUCcw3G3Az8viaAuZh9W9jfiTQrN7MGG5RgdQ9pA4q\noxyB5vwAUwKBgQCi+VwngZLjJV1+FlQkBBjrcX0bIAbIcqfJiBYfQrdBUBlPKt8q\n+pUlaMauFX9FpWe/Sd9evWeLyDXOudO0Jg0JoDvBZh+T7/WLIe5Hi92TsouaAdtL\n7tctPnF6qOlbXtb0VyCAAuYXdRnN+yT/bD5PtnvLec+ad1xyc7jWp/yqMwKBgB8d\nuIXyUdM7XVapOZhElZykgEoa1mHtV0UjH9Mn1oK6KYuxt5yhceXkmdnKXFokvfA9\nDg3ggTsb8hXKnz9mM48IlCv8/TeFVciks8aKWugLLXzF8UD6z8L2uVJSM392haFR\ntxHIq+HjhZOYPr+4HED5TN8s9lLyUh3OIACPnqjbAoGBALLl4SvxfN6jlT1y/XyX\nvlrCsM8t84GHZnDfgbvmo8dcvZGo97RML/tAFmh7rtv0p2X7YwbelhqMBID/PiOs\nCe1oMEQWvug8cOGPjIPP9UUC1VDvKtjKl44eBM1luk3DJZEcR+UImUbLnOS+6/LR\nWnhMG3SqidEeIqYBbhQcrxJt\n-----END PRIVATE KEY-----\n"
+  MAIL_HOST: "mail.idak.lk"
+  MAIL_PORT: "25"
+  MAIL_USERNAME: "support@idak.lk"
+  MAIL_PASSWORD: "s#idak@2020"

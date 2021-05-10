@@ -1,0 +1,48 @@
+{
+  "name": "book-api",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=10.0"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^4.7.0",
+    "@sendgrid/mail": "^7.4.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^3.0.8",
+    "bluebird": "^3.7.2",
+    "cloudinary": "^1.23.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "download-file": "^0.1.5",
+    "email-templates": "^7.2.0",
+    "express": "~4.16.1",
+    "express-fileupload": "^1.2.0",
+    "express-validator": "^6.7.0",
+    "firebase": "^7.2.3",
+    "firebase-admin": "^9.4.2",
+    "geolib": "^3.3.1",
+    "handlebars": "^4.7.6",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^5.1.1",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "nodemailer-handlebars": "^1.0.0",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-headerapikey": "^1.2.2",
+    "request": "^2.88.2",
+    "uniqid": "^5.2.0",
+    "uuid-apikey": "^1.5.1",
+    "voucher-code-generator": "^1.1.1"
+  }
+}
